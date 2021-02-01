@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: relative;
+}
+
+body::after {
+    content: '';
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-image: url(assets/assortedSushi.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: #464646;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 4em;
+    padding: 30px;
+    margin: 0 0 40px 0;
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    border: 6.9px ridge gold;
+    /* border-radius: 180%; */
+    background: crimson;
+
+
+}
+
+.container {
+    margin: 0 auto;
+
+    height: 50vh;
+    width: 50vw;
+    display: block;
+}
+
+.grid {
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 480px;
+    height: 360px;
+
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+
+}
+
+input{
+    display:  block;
+    margin: auto auto;
+    background: gold;
+    color: crimson;
+    padding: 20px;
+    font-size: 2em;
+    border-radius: 50%;
+    outline: none;
+}
