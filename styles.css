@@ -13,7 +13,7 @@ body {
 
 body::after {
     content: '';
-    opacity: 0.5;
+    opacity: 0.69;
     top: 0;
     left: 0;
     bottom: 0;
@@ -36,8 +36,8 @@ h3 {
     margin: 0 0 40px 0;
     -webkit-text-fill-color: white;
     /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: gold;
     border: 6.9px ridge gold;
     /* border-radius: 180%; */
     background: crimson;
@@ -77,6 +77,7 @@ input{
     color: crimson;
     padding: 20px;
     font-size: 2em;
+    border: 4px inset crimson;
     border-radius: 50%;
     outline: none;
 }
